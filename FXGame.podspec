@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FXGame"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "基于cocos2d的游戏组件"
 
   s.homepage     = "https://github.com/zqw87699/FXGame"
@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source_files  = "FXGame/Classes/*.{h,cpp}"
+  s.source_files  = "Classes/*.{h,cpp}"
 
-  s.public_header_files = "FXGame/Classes/*.h"
+  s.public_header_files = "Classes/*.h"
 
   s.module_name = 'FXGame'
 
